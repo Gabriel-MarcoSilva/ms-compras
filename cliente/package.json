@@ -1,0 +1,24 @@
+{
+  "name": "cliente",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "prisma": "^5.14.0",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  }
+}
